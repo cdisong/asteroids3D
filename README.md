@@ -4,13 +4,13 @@
 ## Background and Overview 
 Asteroids3D is a game based on the original Asteroids arcade game where users control a spaceship to avoid obstacles flying towards them in space. Users can also hit the space bar to fire lasers; hitting an asteroid can break the asteroid into smaller parts but cannot destroy it completely. Instead of the animation being 2D, it will appear as though the spaceship is flying into the game, as obstacles fly out in successive z-index increments (increments/frame depending on speed of asteroid). 
 
-##Functionality & MVP
+## Functionality & MVP
 * Users will be able to start, end, pause, and restart game.
 * Navigate game, clearly telling which obstacles are further away, nearing, and passed. 
 * Fire lasers to destroy incoming obstacles. 
 
 
-##Wireframes 
+## Wireframes 
 Asteroids3D will be a single page game with game start and end buttons. 
 Visual cues such as color, overlapping, visibility of details on asteroids will indicate to player which asteroids are close by and which are further away. Spaceship will be placed at approximately z-index 7 of 10, asteroids at z-index 8+ will not affect gameplay beyond vision. Collisions may happen once asteroid is on same z-index as spaceship. 
 
@@ -39,7 +39,8 @@ Visual cues such as color, overlapping, visibility of details on asteroids will 
   * Entry file.
   
  
-##Implementation Timeline 
+## Implementation Timeline 
+
 ### Day 1
 Set up MovingObject class, (constructor function), make Asteroid, Laser, and Ship all inherit from it. 
 Include asteroids colliding with ship, laser colliding with asteroid, and asteroid colliding with asteroid. 
