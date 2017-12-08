@@ -1,3 +1,10 @@
 canvas { 
-  background: grey;
+  background: image-url("sdsunsetr.jpg")
+}
+// canvas { background:url(solar.jpeg) }
+
+canvas {
+  display: flex; 
+  align-items: center;
+
 }
